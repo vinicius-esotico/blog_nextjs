@@ -1,0 +1,23 @@
+{
+  "name": "blog_next",
+  "version": "1.0.0",
+  "description": "Blog feito em NextJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinicius-esotico/blog_nextjs.git"
+  },
+  "author": "Vinicius Ferreira Esotico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinicius-esotico/blog_nextjs/issues"
+  },
+  "homepage": "https://github.com/vinicius-esotico/blog_nextjs#readme",
+  "dependencies": {
+    "astro": "^6.1.1",
+    "react": "^19.2.4"
+  }
+}
