@@ -1,23 +1,26 @@
 {
-  "name": "blog_next",
-  "version": "1.0.0",
-  "description": "Blog feito em NextJS",
-  "main": "index.js",
+  "name": "landing-page",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vinicius-esotico/blog_nextjs.git"
-  },
-  "author": "Vinicius Ferreira Esotico",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vinicius-esotico/blog_nextjs/issues"
-  },
-  "homepage": "https://github.com/vinicius-esotico/blog_nextjs#readme",
   "dependencies": {
-    "astro": "^6.1.1",
-    "react": "^19.2.4"
+    "next": "16.2.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
