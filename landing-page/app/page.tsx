@@ -82,13 +82,11 @@ export default function Home() {
             {artists.map((artist) => (
               <div
                 key={artist.name}
-                className={`group relative overflow-hidden rounded-3xl glass p-8 transition-all hover:-translate-y-2 ${
-                  artist.color === "neon-purple" ? "hover:neon-border-purple" : "hover:neon-border-cyan"
-                }`}
+                className={`group relative overflow-hidden rounded-3xl glass p-8 transition-all hover:-translate-y-2 ${artist.color === "neon-purple" ? "hover:neon-border-purple" : "hover:neon-border-cyan"
+                  }`}
               >
-                <div className={`mb-4 text-xs font-bold uppercase tracking-widest ${
-                  artist.color === "neon-purple" ? "text-neon-purple" : "text-neon-cyan"
-                }`}>
+                <div className={`mb-4 text-xs font-bold uppercase tracking-widest ${artist.color === "neon-purple" ? "text-neon-purple" : "text-neon-cyan"
+                  }`}>
                   {artist.genre}
                 </div>
                 <h3 className="text-2xl font-black">{artist.name}</h3>
@@ -109,7 +107,7 @@ export default function Home() {
           <div className="mx-auto max-w-4xl rounded-[3rem] bg-gradient-to-br from-neon-purple/20 to-neon-cyan/20 p-12 sm:p-20 glass">
             <h2 className="mb-6 text-4xl font-black sm:text-6xl">READY FOR THE DROP?</h2>
             <p className="mb-10 text-lg text-zinc-400">
-              Limited early access passes are available now. Don't miss the digital revolution.
+              Limited early access passes are available now. Dont miss the digital revolution.
             </p>
             <button className="rounded-full bg-white px-10 py-4 text-lg font-black text-background transition-transform hover:scale-105 active:scale-95 shadow-[0_0_30px_rgba(255,255,255,0.3)]">
               SECURE YOUR ACCESS
